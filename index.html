@@ -5,12 +5,70 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Maths – Collège du Ruisseau</title>
 <style>
-  body { font-family: "Segoe UI", Arial, sans-serif; max-width: 720px; margin: 60px auto; padding: 0 16px; color:#1d2939; text-align:center; }
-  h1 { color:#1f3a5f; }
+  :root { --bleu:#1f3a5f; --accent:#2457a6; --ligne:#e4e7ec; --gris:#667085; }
+  * { box-sizing: border-box; }
+  body { font-family: "Segoe UI", Arial, sans-serif; margin:0; background:#f6f8fb; color:#1d2939; }
+  header { background: var(--bleu); color:#fff; padding: 22px 16px 0; }
+  header .in, main { max-width: 860px; margin: 0 auto; }
+  header h1 { margin: 0 0 16px; font-size: 1.6rem; }
+  nav { display:flex; gap:4px; }
+  nav button { font: inherit; font-weight:600; cursor:pointer; border:0; padding: 10px 22px; border-radius: 8px 8px 0 0; background: rgba(255,255,255,.14); color:#fff; }
+  nav button[aria-selected="true"] { background:#f6f8fb; color: var(--bleu); }
+  main { padding: 26px 16px 60px; }
+  section[hidden] { display:none; }
+  h2 { margin-top:0; color: var(--bleu); }
+  .carte { display:block; background:#fff; border:1px solid var(--ligne); border-radius:10px; padding:16px 20px; margin-bottom:12px; text-decoration:none; color:inherit; }
+  .carte:hover { border-color: var(--accent); box-shadow: 0 2px 8px rgba(36,87,166,.15); }
+  .carte b { color: var(--accent); font-size:1.05rem; }
+  .carte span { display:block; color: var(--gris); font-size:.9rem; margin-top:4px; }
+  .vide { color: var(--gris); font-style: italic; }
 </style>
 </head>
 <body>
-<h1>Maths – Collège du Ruisseau</h1>
-<p>Site en construction.</p>
+<header>
+  <div class="in">
+    <h1>Maths – Collège du Ruisseau</h1>
+    <nav role="tablist">
+      <button role="tab" id="t-accueil" aria-selected="true" data-tab="accueil">Accueil</button>
+      <button role="tab" id="t-3e" aria-selected="false" data-tab="3e">3e</button>
+      <button role="tab" id="t-3P" aria-selected="false" data-tab="3P">3P</button>
+    </nav>
+  </div>
+</header>
+<main>
+  <section id="accueil">
+    <h2>Bienvenue</h2>
+    <p>Choisis ton niveau dans les onglets ci-dessus pour retrouver les cours.</p>
+  </section>
+
+  <section id="3e" hidden>
+    <h2>Cours de 3e</h2>
+    <a class="carte" href="cours/thales-3e.html">
+      <b>Le théorème de Thalès</b>
+      <span>Produit en croix, énoncé, figures, méthode et exemples corrigés</span>
+    </a>
+  </section>
+
+  <section id="3P" hidden>
+    <h2>Cours de 3P</h2>
+    <a class="carte" href="cours/thales-3e.html">
+      <b>Le théorème de Thalès</b>
+      <span>Produit en croix, énoncé, figures, méthode et exemples corrigés</span>
+    </a>
+  </section>
+</main>
+<script>
+  var onglets = document.querySelectorAll('nav button');
+  function afficher(nom) {
+    if (!document.getElementById(nom)) nom = 'accueil';
+    onglets.forEach(function (b) { b.setAttribute('aria-selected', b.dataset.tab === nom ? 'true' : 'false'); });
+    document.querySelectorAll('main section').forEach(function (s) { s.hidden = (s.id !== nom); });
+  }
+  onglets.forEach(function (b) {
+    b.addEventListener('click', function () { location.hash = b.dataset.tab; });
+  });
+  window.addEventListener('hashchange', function () { afficher(location.hash.slice(1)); });
+  afficher(location.hash.slice(1));
+</script>
 </body>
 </html>
