@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Programmes maths 6e-5e</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600&family=Source+Sans+3:wght@400;600&display=swap">
+<style>
+/* Layout : une colonne, un tableau par grand thème, badges + / − / → */
+:root{
+  --bg:#f6f7f4; --fg:#1d2420; --muted:#5d6a63; --line:#d9ded9; --card:#ffffff;
+  --add:#1f7a46; --addbg:#e3f3e8; --del:#b3261e; --delbg:#fbe7e5; --mov:#8a5a00; --movbg:#fbf0d9;
+  --display:"Fraunces",Georgia,serif; --body:"Source Sans 3",system-ui,sans-serif;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#141916; --fg:#e6ebe7; --muted:#9aa8a0; --line:#2c3530; --card:#1b211d;
+  --add:#7fd3a0; --addbg:#173323; --del:#f2a49c; --delbg:#3a1c1a; --mov:#e8c27a; --movbg:#3a2e14; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#141916; --fg:#e6ebe7; --muted:#9aa8a0; --line:#2c3530; --card:#1b211d;
+  --add:#7fd3a0; --addbg:#173323; --del:#f2a49c; --delbg:#3a1c1a; --mov:#e8c27a; --movbg:#3a2e14; color-scheme:dark}
+body{background:var(--bg);color:var(--fg);font:16px/1.5 var(--body)}
+.wrap{max-width:960px;margin:0 auto;padding-inline:16px;padding-block:32px 48px;display:grid;gap:28px}
+h1{font-family:var(--display);font-size:2rem;line-height:1.15;margin:0;text-wrap:balance}
+h2{font-family:var(--display);font-size:1.3rem;margin:0 0 10px}
+.lead{color:var(--muted);margin:6px 0 0;max-width:65ch}
+.legend{display:flex;flex-wrap:wrap;gap:10px;font-size:.9rem}
+.b{display:inline-block;font-size:.72rem;font-weight:600;letter-spacing:.06em;text-transform:uppercase;padding:2px 8px;border-radius:4px;white-space:nowrap}
+.add{color:var(--add);background:var(--addbg)} .del{color:var(--del);background:var(--delbg)} .mov{color:var(--mov);background:var(--movbg)}
+.tw{overflow-x:auto;background:var(--card);border:1px solid var(--line);border-radius:8px}
+table{width:100%;border-collapse:collapse;min-width:520px}
+th,td{text-align:left;vertical-align:top;padding:10px 14px;border-bottom:1px solid var(--line)}
+th{font-size:.75rem;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);font-weight:600}
+tr:last-child td{border-bottom:0}
+td:first-child{width:150px;color:var(--muted);font-size:.92rem}
+td:nth-child(2){width:110px}
+.level{font-size:1.7rem;margin:12px 0 0;padding-top:14px;border-top:2px solid var(--fg)}
+.level small{font-family:var(--body);font-size:.85rem;color:var(--muted);font-weight:400;margin-left:8px}
+.lv{display:flex;gap:8px}.lv a{color:var(--fg);border:1px solid var(--line);background:var(--card);padding:4px 12px;border-radius:999px;text-decoration:none;font-weight:600}
+.lv a:focus-visible{outline:2px solid var(--add)}
+.note{color:var(--muted);font-size:.9rem}
+.src{font-size:.85rem;color:var(--muted)} .src a{color:inherit}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+<h1>Mathématiques 6e et 5e : ce qui change</h1>
+<p class="lead">Nouveautés et retraits des nouveaux programmes (6e en 2025, 5e en 2026) par rapport aux anciens, d'après les relevés de l'IA-IPR d'Orléans-Tours.</p>
+</header>
+<nav class="lv"><a href="#sixieme">Sixième</a><a href="#cinquieme">Cinquième</a></nav>
+<div class="legend"><span><span class="b add">Apparaît</span> nouveau à ce niveau</span><span><span class="b del">Disparaît</span> retiré ou non exigible</span><span><span class="b mov">Déplacé</span> vu à un autre niveau</span></div>
+
+<h2 class="level" id="sixieme">Sixième <small>programme 2025</small></h2>
+
+<section><h2>Nombres et calculs</h2><div class="tw"><table>
+<tr><th>Chapitre</th><th>Statut</th><th>Contenu</th></tr>
+<tr><td>Entiers et décimaux</td><td><span class="b add">Apparaît</span></td><td>Symboles ≥ et ≤.</td></tr>
+<tr><td>Entiers et décimaux</td><td><span class="b add">Apparaît</span></td><td>Nombre mixte (ex. 2 + 1/4).</td></tr>
+<tr><td>Entiers et décimaux</td><td><span class="b mov">Déplacé</span></td><td>Critères de divisibilité par 3 et 9 : passent en 5e.</td></tr>
+<tr><td>Entiers et décimaux</td><td><span class="b mov">Déplacé</span></td><td>Priorités opératoires sans parenthèses : passent en 5e (en 6e, calculs avec parenthèses seulement).</td></tr>
+<tr><td>Fractions</td><td><span class="b add">Apparaît</span></td><td>Addition et soustraction de fractions de dénominateur quelconque.</td></tr>
+<tr><td>Fractions</td><td><span class="b add">Apparaît</span></td><td>Inventer des problèmes faisant appel aux fractions.</td></tr>
+<tr><td>Fractions</td><td><span class="b add">Apparaît</span></td><td>Un entier est un décimal ; un pourcentage est un nombre ; valeur arrondie de certains nombres non décimaux.</td></tr>
+<tr><td>Algèbre</td><td><span class="b add">Apparaît</span></td><td>Modèles pré-algébriques (schémas en barres) pour résoudre des problèmes à nombres inconnus.</td></tr>
+<tr><td>Algèbre</td><td><span class="b add">Apparaît</span></td><td>Identifier la structure d'un motif évolutif (régularités).</td></tr>
+</table></div></section>
+
+<section><h2>Grandeurs et mesures</h2><div class="tw"><table>
+<tr><th>Chapitre</th><th>Statut</th><th>Contenu</th></tr>
+<tr><td>Longueur, masse, contenance</td><td><span class="b add">Apparaît</span></td><td>Conversions renforcées par le lien avec la numération décimale (×10, ×100, ×1000). Tableau de conversion déconseillé.</td></tr>
+<tr><td>Aires</td><td><span class="b add">Apparaît</span></td><td>mm² et km² ; conversions m² ↔ dm² et dm² ↔ cm².</td></tr>
+<tr><td>Aires</td><td><span class="b del">Disparaît</span></td><td>Les autres conversions d'aires.</td></tr>
+<tr><td>Aires</td><td><span class="b mov">Déplacé</span></td><td>Aire du disque (passe en 5e) et aire du triangle.</td></tr>
+<tr><td>Volumes</td><td><span class="b add">Apparaît</span></td><td>Travail uniquement en cm³ ; dénombrement de cubes dans des empilements.</td></tr>
+<tr><td>Volumes</td><td><span class="b del">Disparaît</span></td><td>Autres unités de volume ; lien volume–contenance (1 L = 1 dm³).</td></tr>
+<tr><td>Volumes</td><td><span class="b mov">Déplacé</span></td><td>Formules du volume du pavé et du cube : passent en 5e.</td></tr>
+<tr><td>Temps et durées</td><td><span class="b add">Apparaît</span></td><td>Problèmes de décision sur les durées ; conversions usuelles (0,5 h = 30 min, 0,1 h = 6 min…).</td></tr>
+</table></div></section>
+
+<section><h2>Espace et géométrie</h2><div class="tw"><table>
+<tr><th>Chapitre</th><th>Statut</th><th>Contenu</th></tr>
+<tr><td>Configurations planes</td><td><span class="b add">Apparaît</span></td><td>Approche multiple du milieu d'un segment (pliage, guide-âne, règle graduée, compas et règle non graduée).</td></tr>
+<tr><td>Configurations planes</td><td><span class="b add">Apparaît</span></td><td>Inégalité triangulaire observée, sans travail spécifique.</td></tr>
+<tr><td>Configurations planes</td><td><span class="b add">Apparaît</span></td><td>Concours des médiatrices et cercle circonscrit.</td></tr>
+<tr><td>Configurations planes</td><td><span class="b mov">Déplacé</span></td><td>Relations perpendicularité / parallélisme pour raisonner : vues au CM.</td></tr>
+<tr><td>Configurations planes</td><td><span class="b del">Disparaît</span></td><td>Plus court chemin et distance d'un point à une droite.</td></tr>
+<tr><td>Configurations planes</td><td><span class="b del">Disparaît</span></td><td>Constructions de quadrilatères et propriétés des diagonales (les quadrilatères restent en périmètre, aire, automatismes).</td></tr>
+<tr><td>Configurations planes</td><td><span class="b del">Disparaît</span></td><td>Paragraphe dédié aux programmes de construction (ils restent présents partout).</td></tr>
+<tr><td>Angles</td><td><span class="b add">Apparaît</span></td><td>Angles opposés par le sommet, adjacents, supplémentaires ; mesures des angles de l'équerre.</td></tr>
+<tr><td>Angles</td><td><span class="b add">Apparaît</span></td><td>Partage de l'angle plat en 2, 3, 4 ou 6 ; lien quart de tour / angle droit.</td></tr>
+<tr><td>Angles</td><td><span class="b add">Apparaît</span></td><td>Bissectrice ; somme des angles d'un triangle (observée).</td></tr>
+<tr><td>Symétrie axiale</td><td><span class="b add">Apparaît</span></td><td>Bissectrice comme axe de symétrie d'un angle ; instruments imposés (équerre et règle, ou compas et règle).</td></tr>
+</table></div></section>
+
+<section><h2>Données et probabilités</h2><div class="tw"><table>
+<tr><th>Chapitre</th><th>Statut</th><th>Contenu</th></tr>
+<tr><td>Données</td><td><span class="b add">Apparaît</span></td><td>Mesurer, tabuler puis représenter par un nuage de points en choisissant origine et graduations.</td></tr>
+<tr><td>Données</td><td><span class="b add">Apparaît</span></td><td>Faire un choix en filtrant un tableau selon un critère.</td></tr>
+<tr><td>Données</td><td><span class="b mov">Déplacé</span></td><td>Construction de diagrammes en barres, en bâtons et de graphiques : faite au CM.</td></tr>
+<tr><td>Données</td><td><span class="b del">Disparaît</span></td><td>Construction de diagrammes circulaires et semi-circulaires.</td></tr>
+<tr><td>Probabilités</td><td><span class="b add">Apparaît</span></td><td>Tout le chapitre : probabilité = nombre entre 0 et 1, calcul en situation d'équiprobabilité, comparaison avec une expérience répétée.</td></tr>
+</table></div></section>
+
+<section><h2>Proportionnalité</h2><div class="tw"><table>
+<tr><th>Chapitre</th><th>Statut</th><th>Contenu</th></tr>
+<tr><td>Proportionnalité</td><td><span class="b add">Apparaît</span></td><td>Définition explicite : on multiplie les mesures de l'une par un même nombre non nul pour obtenir l'autre.</td></tr>
+<tr><td>Proportionnalité</td><td><span class="b add">Apparaît</span></td><td>Reconnaître le « modèle » proportionnel ; garder les unités dans les calculs ; représentations (tableau nommé, flèches, parenthèses).</td></tr>
+<tr><td>Proportionnalité</td><td><span class="b del">Disparaît</span></td><td>Le mot « coefficient de proportionnalité » (il arrive en 5e).</td></tr>
+<tr><td>Proportionnalité</td><td><span class="b del">Disparaît</span></td><td>Calculs sur des suites de nombres hors contexte ; la vitesse.</td></tr>
+</table></div></section>
+
+<section><h2>Pensée informatique</h2><div class="tw"><table>
+<tr><th>Chapitre</th><th>Statut</th><th>Contenu</th></tr>
+<tr><td>Algorithmique</td><td><span class="b add">Apparaît</span></td><td>Identifier, produire, exécuter et répéter une séquence d'instructions ; programmer un chemin simple.</td></tr>
+<tr><td>Algorithmique</td><td><span class="b del">Disparaît</span></td><td>Déplacements absolus / relatifs.</td></tr>
+</table></div></section>
+
+<h2 class="level" id="cinquieme">Cinquième <small>programme 2026</small></h2>
+
+<section><h2>Nombres et calculs</h2><div class="tw"><table>
+<tr><th>Chapitre</th><th>Statut</th><th>Contenu</th></tr>
+<tr><td>Opérations</td><td><span class="b add">Apparaît</span></td><td>Critères de divisibilité par 3 et par 9 (ceux par 2, 5 et 10 sont vus avant). Le mot « divisible » fait son entrée.</td></tr>
+<tr><td>Opérations</td><td><span class="b del">Disparaît</span></td><td>Nombres premiers ≤ 30 et décomposition en produit de facteurs premiers : passés en prolongement, non exigibles.</td></tr>
+<tr><td>Nombres relatifs</td><td><span class="b add">Apparaît</span></td><td>Valeur absolue d'un nombre ; vocabulaire strictement positif / strictement négatif.</td></tr>
+<tr><td>Puissances</td><td><span class="b add">Apparaît</span></td><td>Notion de puissance et notation (carré, cube).</td></tr>
+<tr><td>Puissances</td><td><span class="b add">Apparaît</span></td><td>Carrés des entiers de 0 à 12, cube de 10 ; écrire un nombre sous forme de puissance.</td></tr>
+<tr><td>Puissances</td><td><span class="b add">Apparaît</span></td><td>Calculer des expressions numériques et littérales avec puissances.</td></tr>
+<tr><td>Calcul littéral</td><td><span class="b add">Apparaît</span></td><td>Utiliser k(a + b) = ka + kb et k(a − b) = ka − kb pour développer <em>et factoriser</em> une expression littérale.</td></tr>
+<tr><td>Calcul littéral</td><td><span class="b add">Apparaît</span></td><td>Résoudre ax = c ou x + b = c par des méthodes arithmétiques (opérations inverses).</td></tr>
+</table></div></section>
+
+<section><h2>Espace et géométrie</h2><div class="tw"><table>
+<tr><th>Chapitre</th><th>Statut</th><th>Contenu</th></tr>
+<tr><td>Représentation de l'espace</td><td><span class="b add">Apparaît</span></td><td>Pavé droit et son patron.</td></tr>
+<tr><td>Représentation de l'espace</td><td><span class="b add">Apparaît</span></td><td>Volume du cube et du pavé droit.</td></tr>
+<tr><td>Représentation de l'espace</td><td><span class="b add">Apparaît</span></td><td>Aire du disque.</td></tr>
+<tr><td>Transformations</td><td><span class="b add">Apparaît</span></td><td>Définir le demi-tour : la symétrie centrale est présentée comme un demi-tour.</td></tr>
+<tr><td>Triangles</td><td><span class="b mov">Déplacé</span></td><td>Inégalité triangulaire : abordée en 6e, plus d'exercices hors contexte attendus en 5e.</td></tr>
+<tr><td>Triangles</td><td><span class="b add">Apparaît</span></td><td>Propriétés des médiatrices et du cercle circonscrit pour des triangles particuliers ; un triangle rectangle est inscrit dans le demi-cercle de diamètre l'hypoténuse (admis, démontré en 4e).</td></tr>
+<tr><td>Triangles</td><td><span class="b add">Apparaît</span></td><td>Les hauteurs d'un triangle sont concourantes.</td></tr>
+<tr><td>Triangles</td><td><span class="b add">Apparaît</span></td><td>Définir et tracer les médianes ; démontrer qu'une médiane partage le triangle en deux triangles de même aire.</td></tr>
+<tr><td>Triangles</td><td><span class="b add">Apparaît</span></td><td>Utiliser l'aire d'un triangle pour mener des raisonnements (fil rouge : preuves par les aires).</td></tr>
+<tr><td>Parallélogrammes</td><td><span class="b add">Apparaît</span></td><td>Nouvelle définition : quadrilatère dont les côtés opposés sont parallèles.</td></tr>
+</table></div></section>
+
+<section><h2>Données et probabilités</h2><div class="tw"><table>
+<tr><th>Chapitre</th><th>Statut</th><th>Contenu</th></tr>
+<tr><td>Statistiques</td><td><span class="b add">Apparaît</span></td><td>Choisir une représentation adaptée à ce qu'on veut mettre en avant.</td></tr>
+<tr><td>Statistiques</td><td><span class="b add">Apparaît</span></td><td>Étudier comment évolue une moyenne (ex. : si chaque valeur augmente de 1).</td></tr>
+<tr><td>Statistiques</td><td><span class="b del">Disparaît</span></td><td>Moyenne pondérée et regroupement par classes.</td></tr>
+<tr><td>Probabilités</td><td><span class="b add">Apparaît</span></td><td>Remettre en question l'équiprobabilité (dé pipé, objets de tailles ou masses différentes).</td></tr>
+<tr><td>Probabilités</td><td><span class="b add">Apparaît</span></td><td>Répéter matériellement une expérience aléatoire ; consigner effectifs et fréquences dans un tableau.</td></tr>
+</table></div></section>
+
+<section><h2>Proportionnalité, fonctions</h2><div class="tw"><table>
+<tr><th>Chapitre</th><th>Statut</th><th>Contenu</th></tr>
+<tr><td>Proportionnalité</td><td><span class="b add">Apparaît</span></td><td>Coefficient de proportionnalité en contexte concret (prix unitaire, vitesse moyenne, échelle).</td></tr>
+<tr><td>Proportionnalité</td><td><span class="b del">Disparaît</span></td><td>Tableaux de nombres décontextualisés : plus un objectif de 5e.</td></tr>
+<tr><td>Proportionnalité</td><td><span class="b mov">Déplacé</span></td><td>Ratios : renvoyés en 4e.</td></tr>
+<tr><td>Fonctions</td><td><span class="b add">Apparaît</span></td><td>Lire et interpréter un graphique cartésien (courbe ou nuage de points).</td></tr>
+</table></div></section>
+
+<p class="note">Pensée informatique : aucun ajout ni retrait signalé par le code couleur de la source.</p>
+<p class="src">Sources : <a href="https://codimd.apps.education.fr/s/BIBjSvfhn">« Les changements dans le programme 2025 de mathématiques en 6ème »</a> (juin 2025) et <a href="https://codimd.apps.education.fr/s/LPpthmMte">« Cinquième (5e) – les changements dans le programme 2026 de mathématiques »</a> (mars 2026), Elise Locatelli, IA-IPR, académie d'Orléans-Tours.</p>
+</div>
+</body>
+</html>
