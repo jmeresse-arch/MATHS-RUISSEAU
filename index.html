@@ -22,6 +22,11 @@
   .carte b { color: var(--accent); font-size:1.05rem; }
   .carte span { display:block; color: var(--gris); font-size:.9rem; margin-top:4px; }
   .vide { color: var(--gris); font-style: italic; }
+  .chapitre { background:#fff; border:1px solid var(--ligne); border-radius:12px; padding:18px 20px 8px; margin-bottom:16px; }
+  .chapitre h3 { margin:0; color: var(--bleu); }
+  .chapitre .resume { margin:4px 0 14px; color: var(--gris); font-size:.92rem; }
+  .liens { display:grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap:12px; margin-bottom:12px; }
+  .liens .carte { margin:0; background:#f6f8fb; }
 </style>
 </head>
 <body>
@@ -43,18 +48,28 @@
 
   <section id="3e" hidden>
     <h2>Cours de 3e</h2>
-    <a class="carte" href="cours/thales-3e.html">
-      <b>Le théorème de Thalès</b>
-      <span>Produit en croix, énoncé, figures, méthode et exemples corrigés</span>
-    </a>
+    <div class="chapitre">
+      <h3>Le théorème de Thalès</h3>
+      <p class="resume">Produit en croix, énoncé, figures, méthode et exemples corrigés</p>
+      <div class="liens">
+        <a class="carte" href="cours/thales-3e.html"><b>Cours</b><span>À lire à l'écran</span></a>
+        <a class="carte" href="cours/thales-3e.pdf" target="_blank" rel="noopener"><b>Cours en PDF</b><span>À imprimer ou à télécharger</span></a>
+        <a class="carte" href="https://docs.google.com/presentation/d/167W2RbRlFZCJzGixkdTHe44iG0gxskcUqxjgsA9tIzo/edit?usp=sharing" target="_blank" rel="noopener noreferrer"><b>Diaporama</b><span>Présentation en classe (Google Slides)</span></a>
+      </div>
+    </div>
   </section>
 
   <section id="3P" hidden>
     <h2>Cours de 3P</h2>
-    <a class="carte" href="cours/thales-3e.html">
-      <b>Le théorème de Thalès</b>
-      <span>Produit en croix, énoncé, figures, méthode et exemples corrigés</span>
-    </a>
+    <div class="chapitre">
+      <h3>Le théorème de Thalès</h3>
+      <p class="resume">Produit en croix, énoncé, figures, méthode et exemples corrigés</p>
+      <div class="liens">
+        <a class="carte" href="cours/thales-3e.html"><b>Cours</b><span>À lire à l'écran</span></a>
+        <a class="carte" href="cours/thales-3e.pdf" target="_blank" rel="noopener"><b>Cours en PDF</b><span>À imprimer ou à télécharger</span></a>
+        <a class="carte" href="https://docs.google.com/presentation/d/167W2RbRlFZCJzGixkdTHe44iG0gxskcUqxjgsA9tIzo/edit?usp=sharing" target="_blank" rel="noopener noreferrer"><b>Diaporama</b><span>Présentation en classe (Google Slides)</span></a>
+      </div>
+    </div>
   </section>
 </main>
 <script>
