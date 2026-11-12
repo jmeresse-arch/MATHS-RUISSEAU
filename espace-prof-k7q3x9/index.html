@@ -6,28 +6,61 @@
 <meta name="robots" content="noindex, nofollow">
 <title>Espace enseignant</title>
 <style>
-  body { font-family: "Segoe UI", Arial, sans-serif; max-width: 720px; margin: 40px auto; padding: 0 16px; color:#1d2939; }
-  h1 { color:#1f3a5f; }
-  li { margin: 8px 0; }
-  .todo { color:#667085; }
+  :root { --bleu:#1f3a5f; --gris:#667085; --trait:#e4e7ec; --fond:#f7f8fa; }
+  * { box-sizing:border-box; }
+  body { font-family:"Segoe UI",Arial,sans-serif; max-width:860px; margin:0 auto; padding:0 16px 60px; color:#1d2939; background:#fff; line-height:1.45; }
+  header { padding:28px 0 8px; }
+  h1 { color:var(--bleu); margin:0 0 4px; font-size:1.7rem; }
+  header p { margin:0; color:var(--gris); }
+  nav { position:sticky; top:0; background:#fff; padding:10px 0; border-bottom:1px solid var(--trait); display:flex; gap:8px; flex-wrap:wrap; z-index:5; }
+  nav a { padding:6px 12px; border-radius:999px; background:var(--fond); color:var(--bleu); text-decoration:none; font-weight:600; font-size:.92rem; border:1px solid var(--trait); }
+  nav a:hover { background:var(--bleu); color:#fff; }
+  h2 { color:var(--bleu); margin:34px 0 10px; font-size:1.25rem; border-bottom:2px solid var(--bleu); padding-bottom:4px; scroll-margin-top:60px; }
+  .chap { display:flex; justify-content:space-between; align-items:center; gap:12px; padding:9px 12px; border:1px solid var(--trait); border-radius:8px; margin:6px 0; background:var(--fond); flex-wrap:wrap; }
+  .chap b { font-weight:600; }
+  .docs a { display:inline-block; margin-left:8px; padding:4px 10px; border-radius:6px; background:var(--bleu); color:#fff; text-decoration:none; font-size:.88rem; }
+  .docs a:hover { opacity:.88; }
+  .vide { color:var(--gris); font-size:.85rem; font-style:italic; }
+  ul { padding-left:20px; } li { margin:7px 0; }
 </style>
 </head>
 <body>
-<h1>Espace enseignant</h1>
-<p>Documents de travail, non référencés.</p>
-<h2>Changements de programme 2026</h2>
+<header>
+  <h1>Espace enseignant</h1>
+  <p>Documents de travail, non référencés. Une section par niveau, un chapitre par ligne.</p>
+</header>
+<nav>
+  <a href="#6e">Sixième</a>
+  <a href="#5e">Cinquième</a>
+  <a href="#3e">Troisième</a>
+  <a href="#3p">3P</a>
+  <a href="#programmes">Programmes</a>
+  <a href="#suivi">Suivi</a>
+</nav>
+<h2 id="6e">Sixième</h2>
+<div class="chap"><b>Les nombres décimaux</b><span class="vide">version professeur à venir</span></div>
+<div class="chap"><b>Éléments de base en géométrie</b><span class="vide">version professeur à venir</span></div>
+<div class="chap"><b>Cercle et médiatrice</b><span class="docs"><a href="6e/cercle-mediatrice/cours-prof.pdf" target="_blank" rel="noopener">Cours, version professeur (corrigé)</a></span></div>
+<div class="chap"><b>Opérations sur les nombres décimaux</b><span class="vide">version professeur à venir</span></div>
+<h2 id="5e">Cinquième</h2>
+<div class="chap"><b>La symétrie centrale</b><span class="vide">version professeur à venir</span></div>
+<div class="chap"><b>Les nombres relatifs</b><span class="vide">version professeur à venir</span></div>
+<div class="chap"><b>Les droites remarquables du triangle</b><span class="vide">version professeur à venir</span></div>
+<h2 id="3e">Troisième</h2>
+<div class="chap"><b>Le théorème de Thalès</b><span class="vide">version professeur à venir</span></div>
+<div class="chap"><b>Les puissances</b><span class="docs"><a href="3e/puissances/cours-prof.pdf" target="_blank" rel="noopener">Cours, version professeur (notes et corrigé)</a></span></div>
+<div class="chap"><b>Les statistiques</b><span class="docs"><a href="3e/statistiques/cours-prof.pdf" target="_blank" rel="noopener">Cours, version professeur (déroulé et corrigé)</a></span></div>
+<div class="chap"><b>Les fractions</b><span class="vide">version professeur à venir</span></div>
+<div class="chap"><b>L'arithmétique</b><span class="vide">version professeur à venir</span></div>
+<h2 id="3p">Troisième prépa-métiers (3P)</h2>
+<div class="chap"><b>Le théorème de Thalès</b><span class="docs"><a href="3p/thales/exercices-corrige.pdf" target="_blank" rel="noopener">Fiche d'exercices facile, corrigé détaillé</a></span></div>
+<div class="chap"><b>Les pourcentages</b><span class="docs"><a href="3p/pourcentages/prepa-evaluation-corrige.pdf" target="_blank" rel="noopener">Fiche de préparation à l'évaluation, avec corrigé</a></span></div>
+<h2 id="programmes">Programmes 2026</h2>
 <ul>
-  <li><a href="changements-programmes-6e-5e.html">Mathématiques 6e et 5e : ce qui change (apparaît, disparaît, déplacé)</a></li>
+  <li><a href="programmes/changements-programmes-6e-5e.html">Mathématiques 6e et 5e : ce qui change (apparaît, disparaît, déplacé)</a></li>
+  <li><a href="programmes/programme-5e-2026.html">Mathématiques 5e : changements 2026</a></li>
 </ul>
-<h2>Cours (versions professeur)</h2>
-<ul>
-  <li><a href="pourcentages-3p-prepa-evaluation-corrige.pdf" target="_blank" rel="noopener">Les pourcentages 3P : fiche de préparation à l'évaluation, avec corrigé</a></li>
-  <li><a href="thales-exercices-3p-corrige.pdf" target="_blank" rel="noopener">Thalès 3P : fiche d'exercices facile, corrigé détaillé</a></li>
-  <li><a href="cercle-mediatrice-6e-prof.pdf" target="_blank" rel="noopener">Cercle et médiatrice 6e : cours, version professeur (corrigé)</a></li>
-  <li><a href="puissances-3e-cours-prof.pdf" target="_blank" rel="noopener">Les puissances 3e : cours, version professeur (notes et corrigé)</a></li>
-  <li><a href="statistiques-3e-cours-prof.pdf" target="_blank" rel="noopener">Les statistiques 3e : cours, version professeur (déroulé et corrigé)</a></li>
-</ul>
-<h2>Suivi de progression 2026-2027</h2>
+<h2 id="suivi">Suivi de progression 2026-2027</h2>
 <ul>
   <li><a href="https://docs.google.com/spreadsheets/d/1ASuYNsMeuhQz7C8dDj5_RUTppUPyyYELTHLZpJK16Rs/edit?gid=181250775#gid=181250775" target="_blank" rel="noopener noreferrer">Tableau de progression cycles 3 et 4 (6e, 5e, 4e, 3e) : objectifs, statuts et séquences</a> (Google Sheets)</li>
 </ul>
