@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+<question type="category"><category><text><![CDATA[<infos><name>Calcul littéral 3e</name><answernumbering>123</answernumbering><niveau>3EME</niveau><matiere>MATHEMATIQUES</matiere></infos>]]></text></category></question>
+<question type="multichoice">
+<name><text><![CDATA[Réduire une somme]]></text></name>
+<questiontext format="html"><text><![CDATA[<div style="font-family: Arial; font-size: 13px;">Réduire l'expression 3x+4x.</div>]]></text></questiontext>
+<externallink/><usecase>1</usecase><defaultgrade>1</defaultgrade><single>true</single>
+<answer fraction="0" format="plain_text"><text><![CDATA[7x²]]></text><feedback><text><![CDATA[]]></text></feedback></answer>
+<answer fraction="100" format="plain_text"><text><![CDATA[7x]]></text><feedback><text><![CDATA[]]></text></feedback></answer>
+<answer fraction="0" format="plain_text"><text><![CDATA[12x]]></text><feedback><text><![CDATA[]]></text></feedback></answer>
+<answer fraction="0" format="plain_text"><text><![CDATA[12x²]]></text><feedback><text><![CDATA[]]></text></feedback></answer>
+</question>
+<question type="multichoice">
+<name><text><![CDATA[Réduire]]></text></name>
+<questiontext format="html"><text><![CDATA[<div style="font-family: Arial; font-size: 13px;">Réduire l'expression 4x<sup>2</sup>+3x−x<sup>2</sup>+5x.</div>]]></text></questiontext>
+<externallink/><usecase>1</usecase><defaultgrade>1</defaultgrade><single>true</single>
+<answer fraction="0" format="plain_text"><text><![CDATA[11x²]]></text><feedback><text><![CDATA[]]></text></feedback></answer>
+<answer fraction="0" format="plain_text"><text><![CDATA[3x² − 8x]]></text><feedback><text><![CDATA[]]></text></feedback></answer>
+<answer fraction="100" format="plain_text"><text><![CDATA[3x² + 8x]]></text><feedback><text><![CDATA[]]></text></feedback></answer>
+<answer fraction="0" format="plain_text"><text><![CDATA[11x]]></text><feedback><text><![CDATA[]]></text></feedback></answer>
+</question>
+<question type="multichoice">
+<name><text><![CDATA[Produit de monômes]]></text></name>
+<questiontext format="html"><text><![CDATA[<div style="font-family: Arial; font-size: 13px;">Quel est le produit 2x×3x ?</div>]]></text></questiontext>
+<externallink/><usecase>1</usecase><defaultgrade>1</defaultgrade><single>true</single>
+<answer fraction="100" format="plain_text"><text><![CDATA[6x²]]></text><feedback><text><![CDATA[]]></text></feedback></answer>
+<answer fraction="0" format="plain_text"><text><![CDATA[6x]]></text><feedback><text><![CDATA[]]></text></feedback></answer>
+<answer fraction="0" format="plain_text"><text><![CDATA[5x²]]></text><feedback><text><![CDATA[]]></text></feedback></answer>
+<answer fraction="0" format="plain_text"><text><![CDATA[5x]]></text><feedback><text><![CDATA[]]></text></feedback></answer>
+</question>
+<question type="multichoice">
+<name><text><![CDATA[Distributivité]]></text></name>
+<questiontext format="html"><text><![CDATA[<div style="font-family: Arial; font-size: 13px;">Développer 3(2x−4).</div>]]></text></questiontext>
+<externallink/><usecase>1</usecase><defaultgrade>1</defaultgrade><single>true</single>
+<answer fraction="0" format="plain_text"><text><![CDATA[6x − 4]]></text><feedback><text><![CDATA[]]></text></feedback></answer>
+<answer fraction="100" format="plain_text"><text><![CDATA[6x − 12]]></text><feedback><text><![CDATA[]]></text></feedback></answer>
+<answer fraction="0" format="plain_text"><text><![CDATA[6x + 12]]></text><feedback><text><![CDATA[]]></text></feedback></answer>
+<answer fraction="0" format="plain_text"><text><![CDATA[5x − 12]]></text><feedback><text><![CDATA[]]></text></feedback></answer>
+</question>
+<question type="multichoice">
+<name><text><![CDATA[Distributivité et signe]]></text></name>
+<questiontext format="html"><text><![CDATA[<div style="font-family: Arial; font-size: 13px;">Développer −2(x−5).</div>]]></text></questiontext>
+<externallink/><usecase>1</usecase><defaultgrade>1</defaultgrade><single>true</single>
+<answer fraction="0" format="plain_text"><text><![CDATA[−2x − 10]]></text><feedback><text><![CDATA[]]></text></feedback></answer>
+<answer fraction="0" format="plain_text"><text><![CDATA[2x − 10]]></text><feedback><text><![CDATA[]]></text></feedback></answer>
+<answer fraction="0" format="plain_text"><text><![CDATA[−2x + 5]]></text><feedback><text><![CDATA[]]></text></feedback></answer>
+<answer fraction="100" format="plain_text"><text><![CDATA[−2x + 10]]></text><feedback><text><![CDATA[]]></text></feedback></answer>
+</question>
+<question type="multichoice">
+<name><text><![CDATA[Double distributivité]]></text></name>
+<questiontext format="html"><text><![CDATA[<div style="font-family: Arial; font-size: 13px;">Développer et réduire (x+3)(x+4).</div>]]></text></questiontext>
+<externallink/><usecase>1</usecase><defaultgrade>1</defaultgrade><single>true</single>
+<answer fraction="0" format="plain_text"><text><![CDATA[x² + 12]]></text><feedback><text><![CDATA[]]></text></feedback></answer>
+<answer fraction="100" format="plain_text"><text><![CDATA[x² + 7x + 12]]></text><feedback><text><![CDATA[]]></text></feedback></answer>
+<answer fraction="0" format="plain_text"><text><![CDATA[x² + 7x + 7]]></text><feedback><text><![CDATA[]]></text></feedback></answer>
+<answer fraction="0" format="plain_text"><text><![CDATA[x² + 12x + 7]]></text><feedback><text><![CDATA[]]></text></feedback></answer>
+</question>
+<question type="multichoice">
+<name><text><![CDATA[Identité remarquable 1]]></text></name>
+<questiontext format="html"><text><![CDATA[<div style="font-family: Arial; font-size: 13px;">Développer (x−5)<sup>2</sup>.</div>]]></text></questiontext>
+<externallink/><usecase>1</usecase><defaultgrade>1</defaultgrade><single>true</single>
+<answer fraction="0" format="plain_text"><text><![CDATA[x² − 25]]></text><feedback><text><![CDATA[]]></text></feedback></answer>
+<answer fraction="0" format="plain_text"><text><![CDATA[x² − 10x − 25]]></text><feedback><text><![CDATA[]]></text></feedback></answer>
+<answer fraction="100" format="plain_text"><text><![CDATA[x² − 10x + 25]]></text><feedback><text><![CDATA[]]></text></feedback></answer>
+<answer fraction="0" format="plain_text"><text><![CDATA[x² + 25]]></text><feedback><text><![CDATA[]]></text></feedback></answer>
+</question>
+<question type="multichoice">
+<name><text><![CDATA[Identité remarquable 2]]></text></name>
+<questiontext format="html"><text><![CDATA[<div style="font-family: Arial; font-size: 13px;">Développer (2x+3)(2x−3).</div>]]></text></questiontext>
+<externallink/><usecase>1</usecase><defaultgrade>1</defaultgrade><single>true</single>
+<answer fraction="0" format="plain_text"><text><![CDATA[2x² − 9]]></text><feedback><text><![CDATA[]]></text></feedback></answer>
+<answer fraction="100" format="plain_text"><text><![CDATA[4x² − 9]]></text><feedback><text><![CDATA[]]></text></feedback></answer>
+<answer fraction="0" format="plain_text"><text><![CDATA[4x² + 9]]></text><feedback><text><![CDATA[]]></text></feedback></answer>
+<answer fraction="0" format="plain_text"><text><![CDATA[4x² − 12x + 9]]></text><feedback><text><![CDATA[]]></text></feedback></answer>
+</question>
+<question type="multichoice">
+<name><text><![CDATA[Calcul mental]]></text></name>
+<questiontext format="html"><text><![CDATA[<div style="font-family: Arial; font-size: 13px;">Avec une identité remarquable, 49×51 est égal à :</div>]]></text></questiontext>
+<externallink/><usecase>1</usecase><defaultgrade>1</defaultgrade><single>true</single>
+<answer fraction="0" format="plain_text"><text><![CDATA[2 401]]></text><feedback><text><![CDATA[]]></text></feedback></answer>
+<answer fraction="0" format="plain_text"><text><![CDATA[2 500]]></text><feedback><text><![CDATA[]]></text></feedback></answer>
+<answer fraction="100" format="plain_text"><text><![CDATA[2 499]]></text><feedback><text><![CDATA[]]></text></feedback></answer>
+<answer fraction="0" format="plain_text"><text><![CDATA[2 501]]></text><feedback><text><![CDATA[]]></text></feedback></answer>
+</question>
+<question type="multichoice">
+<name><text><![CDATA[Factoriser]]></text></name>
+<questiontext format="html"><text><![CDATA[<div style="font-family: Arial; font-size: 13px;">Factoriser 10a−15b.</div>]]></text></questiontext>
+<externallink/><usecase>1</usecase><defaultgrade>1</defaultgrade><single>true</single>
+<answer fraction="0" format="plain_text"><text><![CDATA[10(a − 15b)]]></text><feedback><text><![CDATA[]]></text></feedback></answer>
+<answer fraction="0" format="plain_text"><text><![CDATA[5(2a + 3b)]]></text><feedback><text><![CDATA[]]></text></feedback></answer>
+<answer fraction="0" format="plain_text"><text><![CDATA[5(a − 3b)]]></text><feedback><text><![CDATA[]]></text></feedback></answer>
+<answer fraction="100" format="plain_text"><text><![CDATA[5(2a − 3b)]]></text><feedback><text><![CDATA[]]></text></feedback></answer>
+</question>
+</quiz>
