@@ -22,6 +22,8 @@
   .carte b { color: var(--accent); font-size:1.05rem; }
   .carte span { display:block; color: var(--gris); font-size:.9rem; margin-top:4px; }
   .vide { color: var(--gris); font-style: italic; }
+  .compteur { margin-top:28px; color: var(--gris); font-size:.9rem; }
+  .compteur b { color: var(--bleu); }
   .chapitre { background:#fff; border:1px solid var(--ligne); border-radius:12px; padding:18px 20px 8px; margin-bottom:16px; }
   .chapitre h3 { margin:0; color: var(--bleu); }
   .chapitre .resume { margin:4px 0 14px; color: var(--gris); font-size:.92rem; }
@@ -46,6 +48,7 @@
   <section id="accueil">
     <h2>Bienvenue</h2>
     <p>Choisis ton niveau dans les onglets ci-dessus pour retrouver les cours.</p>
+    <p class="compteur" id="compteur-bloc" hidden>Nombre de visites : <b id="compteur">…</b></p>
   </section>
 
   <section id="6e" hidden>
@@ -226,6 +229,22 @@
   });
   window.addEventListener('hashchange', function () { afficher(location.hash.slice(1)); });
   afficher(location.hash.slice(1));
+
+  // Compteur de visites (CounterAPI) : une visite est comptée une fois par session de navigation
+  (function () {
+    var base = 'https://api.counterapi.dev/v1/maths-ruisseau-jmeresse/accueil';
+    var dejaCompte = false;
+    try { dejaCompte = sessionStorage.getItem('visite-comptee') === '1'; } catch (e) {}
+    fetch(dejaCompte ? base : base + '/up')
+      .then(function (r) { return r.json(); })
+      .then(function (d) {
+        if (typeof d.count !== 'number') return;
+        document.getElementById('compteur').textContent = d.count.toLocaleString('fr-FR');
+        document.getElementById('compteur-bloc').hidden = false;
+        try { sessionStorage.setItem('visite-comptee', '1'); } catch (e) {}
+      })
+      .catch(function () { /* service indisponible : le compteur reste masqué */ });
+  })();
 </script>
 </body>
 </html>
