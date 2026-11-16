@@ -48,7 +48,7 @@
   <section id="accueil">
     <h2>Bienvenue</h2>
     <p>Choisis ton niveau dans les onglets ci-dessus pour retrouver les cours.</p>
-    <p class="compteur" id="compteur-bloc" hidden>Nombre de visites : <b id="compteur">…</b></p>
+    <p class="compteur" id="compteur-bloc" hidden>Nombre de visiteurs : <b id="compteur">…</b></p>
   </section>
 
   <section id="6e" hidden>
@@ -230,21 +230,17 @@
   window.addEventListener('hashchange', function () { afficher(location.hash.slice(1)); });
   afficher(location.hash.slice(1));
 
-  // Compteur de visites (CounterAPI) : une visite est comptée une fois par session de navigation
-  (function () {
-    var base = 'https://api.counterapi.dev/v1/maths-ruisseau-jmeresse/accueil';
-    var dejaCompte = false;
-    try { dejaCompte = sessionStorage.getItem('visite-comptee') === '1'; } catch (e) {}
-    fetch(dejaCompte ? base : base + '/up')
-      .then(function (r) { return r.json(); })
-      .then(function (d) {
-        if (typeof d.count !== 'number') return;
-        document.getElementById('compteur').textContent = d.count.toLocaleString('fr-FR');
-        document.getElementById('compteur-bloc').hidden = false;
-        try { sessionStorage.setItem('visite-comptee', '1'); } catch (e) {}
-      })
-      .catch(function () { /* service indisponible : le compteur reste masqué */ });
-  })();
+  // Affichage du total des visites (GoatCounter) ; la ligne reste masquée si le service ne répond pas
+  fetch('https://maths-ruisseau.goatcounter.com/counter/TOTAL.json')
+    .then(function (r) { return r.json(); })
+    .then(function (d) {
+      if (!d || !d.count) return;
+      document.getElementById('compteur').textContent = d.count;
+      document.getElementById('compteur-bloc').hidden = false;
+    })
+    .catch(function () {});
 </script>
+<script data-goatcounter="https://maths-ruisseau.goatcounter.com/count"
+        async src="//gc.zgo.at/count.js"></script>
 </body>
 </html>
