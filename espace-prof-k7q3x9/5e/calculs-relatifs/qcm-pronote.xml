@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+<question type="category"><category><text><![CDATA[<infos><name>Calculs avec les nombres relatifs 5e</name><answernumbering>123</answernumbering><niveau>5EME</niveau><matiere>MATHEMATIQUES</matiere></infos>]]></text></category></question>
+<question type="multichoice">
+<name><text><![CDATA[Somme de deux nombres]]></text></name>
+<questiontext format="html"><text><![CDATA[<div style="font-family: Arial; font-size: 13px;">Calculer −3 + 8.</div>]]></text></questiontext>
+<externallink/><usecase>1</usecase><defaultgrade>1</defaultgrade><single>true</single>
+<answer fraction="0" format="plain_text"><text><![CDATA[−5]]></text><feedback><text><![CDATA[]]></text></feedback></answer>
+<answer fraction="100" format="plain_text"><text><![CDATA[5]]></text><feedback><text><![CDATA[]]></text></feedback></answer>
+<answer fraction="0" format="plain_text"><text><![CDATA[11]]></text><feedback><text><![CDATA[]]></text></feedback></answer>
+<answer fraction="0" format="plain_text"><text><![CDATA[−11]]></text><feedback><text><![CDATA[]]></text></feedback></answer>
+</question>
+<question type="multichoice">
+<name><text><![CDATA[Deux pertes]]></text></name>
+<questiontext format="html"><text><![CDATA[<div style="font-family: Arial; font-size: 13px;">Calculer −2 − 7.</div>]]></text></questiontext>
+<externallink/><usecase>1</usecase><defaultgrade>1</defaultgrade><single>true</single>
+<answer fraction="0" format="plain_text"><text><![CDATA[−5]]></text><feedback><text><![CDATA[]]></text></feedback></answer>
+<answer fraction="0" format="plain_text"><text><![CDATA[5]]></text><feedback><text><![CDATA[]]></text></feedback></answer>
+<answer fraction="0" format="plain_text"><text><![CDATA[9]]></text><feedback><text><![CDATA[]]></text></feedback></answer>
+<answer fraction="100" format="plain_text"><text><![CDATA[−9]]></text><feedback><text><![CDATA[]]></text></feedback></answer>
+</question>
+<question type="multichoice">
+<name><text><![CDATA[Gain puis perte]]></text></name>
+<questiontext format="html"><text><![CDATA[<div style="font-family: Arial; font-size: 13px;">Calculer 3 − 9.</div>]]></text></questiontext>
+<externallink/><usecase>1</usecase><defaultgrade>1</defaultgrade><single>true</single>
+<answer fraction="100" format="plain_text"><text><![CDATA[−6]]></text><feedback><text><![CDATA[]]></text></feedback></answer>
+<answer fraction="0" format="plain_text"><text><![CDATA[6]]></text><feedback><text><![CDATA[]]></text></feedback></answer>
+<answer fraction="0" format="plain_text"><text><![CDATA[12]]></text><feedback><text><![CDATA[]]></text></feedback></answer>
+<answer fraction="0" format="plain_text"><text><![CDATA[−12]]></text><feedback><text><![CDATA[]]></text></feedback></answer>
+</question>
+<question type="multichoice">
+<name><text><![CDATA[Soustraire un nombre négatif]]></text></name>
+<questiontext format="html"><text><![CDATA[<div style="font-family: Arial; font-size: 13px;">Calculer 8 − (−5).</div>]]></text></questiontext>
+<externallink/><usecase>1</usecase><defaultgrade>1</defaultgrade><single>true</single>
+<answer fraction="0" format="plain_text"><text><![CDATA[3]]></text><feedback><text><![CDATA[]]></text></feedback></answer>
+<answer fraction="0" format="plain_text"><text><![CDATA[−3]]></text><feedback><text><![CDATA[]]></text></feedback></answer>
+<answer fraction="100" format="plain_text"><text><![CDATA[13]]></text><feedback><text><![CDATA[]]></text></feedback></answer>
+<answer fraction="0" format="plain_text"><text><![CDATA[−13]]></text><feedback><text><![CDATA[]]></text></feedback></answer>
+</question>
+<question type="multichoice">
+<name><text><![CDATA[Signes qui se suivent]]></text></name>
+<questiontext format="html"><text><![CDATA[<div style="font-family: Arial; font-size: 13px;">Calculer −2,1 − (+4).</div>]]></text></questiontext>
+<externallink/><usecase>1</usecase><defaultgrade>1</defaultgrade><single>true</single>
+<answer fraction="0" format="plain_text"><text><![CDATA[−1,9]]></text><feedback><text><![CDATA[]]></text></feedback></answer>
+<answer fraction="0" format="plain_text"><text><![CDATA[1,9]]></text><feedback><text><![CDATA[]]></text></feedback></answer>
+<answer fraction="0" format="plain_text"><text><![CDATA[6,1]]></text><feedback><text><![CDATA[]]></text></feedback></answer>
+<answer fraction="100" format="plain_text"><text><![CDATA[−6,1]]></text><feedback><text><![CDATA[]]></text></feedback></answer>
+</question>
+<question type="multichoice">
+<name><text><![CDATA[Priorité des parenthèses]]></text></name>
+<questiontext format="html"><text><![CDATA[<div style="font-family: Arial; font-size: 13px;">Calculer 4 + (−7 + 9).</div>]]></text></questiontext>
+<externallink/><usecase>1</usecase><defaultgrade>1</defaultgrade><single>true</single>
+<answer fraction="0" format="plain_text"><text><![CDATA[2]]></text><feedback><text><![CDATA[]]></text></feedback></answer>
+<answer fraction="100" format="plain_text"><text><![CDATA[6]]></text><feedback><text><![CDATA[]]></text></feedback></answer>
+<answer fraction="0" format="plain_text"><text><![CDATA[20]]></text><feedback><text><![CDATA[]]></text></feedback></answer>
+<answer fraction="0" format="plain_text"><text><![CDATA[−12]]></text><feedback><text><![CDATA[]]></text></feedback></answer>
+</question>
+<question type="multichoice">
+<name><text><![CDATA[Suite de termes]]></text></name>
+<questiontext format="html"><text><![CDATA[<div style="font-family: Arial; font-size: 13px;">Calculer −3 + 8 − 4 + 12 − 13 − 11 + 10.</div>]]></text></questiontext>
+<externallink/><usecase>1</usecase><defaultgrade>1</defaultgrade><single>true</single>
+<answer fraction="0" format="plain_text"><text><![CDATA[1]]></text><feedback><text><![CDATA[]]></text></feedback></answer>
+<answer fraction="0" format="plain_text"><text><![CDATA[61]]></text><feedback><text><![CDATA[]]></text></feedback></answer>
+<answer fraction="100" format="plain_text"><text><![CDATA[−1]]></text><feedback><text><![CDATA[]]></text></feedback></answer>
+<answer fraction="0" format="plain_text"><text><![CDATA[−61]]></text><feedback><text><![CDATA[]]></text></feedback></answer>
+</question>
+<question type="multichoice">
+<name><text><![CDATA[Soustraire, c'est ajouter l'opposé]]></text></name>
+<questiontext format="html"><text><![CDATA[<div style="font-family: Arial; font-size: 13px;">Soustraire −6 revient à ajouter…</div>]]></text></questiontext>
+<externallink/><usecase>1</usecase><defaultgrade>1</defaultgrade><single>true</single>
+<answer fraction="100" format="plain_text"><text><![CDATA[+6]]></text><feedback><text><![CDATA[]]></text></feedback></answer>
+<answer fraction="0" format="plain_text"><text><![CDATA[−6]]></text><feedback><text><![CDATA[]]></text></feedback></answer>
+<answer fraction="0" format="plain_text"><text><![CDATA[+12]]></text><feedback><text><![CDATA[]]></text></feedback></answer>
+<answer fraction="0" format="plain_text"><text><![CDATA[−12]]></text><feedback><text><![CDATA[]]></text></feedback></answer>
+</question>
+<question type="multichoice">
+<name><text><![CDATA[Deux parenthèses]]></text></name>
+<questiontext format="html"><text><![CDATA[<div style="font-family: Arial; font-size: 13px;">Calculer (−3) − (−6 + 8).</div>]]></text></questiontext>
+<externallink/><usecase>1</usecase><defaultgrade>1</defaultgrade><single>true</single>
+<answer fraction="0" format="plain_text"><text><![CDATA[11]]></text><feedback><text><![CDATA[]]></text></feedback></answer>
+<answer fraction="100" format="plain_text"><text><![CDATA[−5]]></text><feedback><text><![CDATA[]]></text></feedback></answer>
+<answer fraction="0" format="plain_text"><text><![CDATA[−1]]></text><feedback><text><![CDATA[]]></text></feedback></answer>
+<answer fraction="0" format="plain_text"><text><![CDATA[5]]></text><feedback><text><![CDATA[]]></text></feedback></answer>
+</question>
+<question type="multichoice">
+<name><text><![CDATA[Température]]></text></name>
+<questiontext format="html"><text><![CDATA[<div style="font-family: Arial; font-size: 13px;">Au Piton des Neiges, il fait −4 °C à l'aube. La température monte de 9 °C, puis elle baisse de 8 °C. Quelle est la température finale ?</div>]]></text></questiontext>
+<externallink/><usecase>1</usecase><defaultgrade>1</defaultgrade><single>true</single>
+<answer fraction="0" format="plain_text"><text><![CDATA[3 °C]]></text><feedback><text><![CDATA[]]></text></feedback></answer>
+<answer fraction="0" format="plain_text"><text><![CDATA[−5 °C]]></text><feedback><text><![CDATA[]]></text></feedback></answer>
+<answer fraction="0" format="plain_text"><text><![CDATA[−13 °C]]></text><feedback><text><![CDATA[]]></text></feedback></answer>
+<answer fraction="100" format="plain_text"><text><![CDATA[−3 °C]]></text><feedback><text><![CDATA[]]></text></feedback></answer>
+</question>
+</quiz>
