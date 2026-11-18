@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+<question type="category"><category><text><![CDATA[<infos><name>Cercle et médiatrice - 6e</name><answernumbering>123</answernumbering><niveau>6EME</niveau><matiere>MATHEMATIQUES</matiere></infos>]]></text></category></question>
+<question type="multichoice">
+<name><text><![CDATA[Diamètre et rayon]]></text></name>
+<questiontext format="html"><text><![CDATA[<div style="font-family: Arial; font-size: 13px;">Un cercle a pour rayon 4 cm. Son diamètre mesure :</div>]]></text></questiontext>
+<externallink/>
+<usecase>1</usecase>
+<defaultgrade>1</defaultgrade>
+<single>true</single>
+<answer fraction="0" format="plain_text"><text><![CDATA[2 cm]]></text><feedback><text><![CDATA[]]></text></feedback></answer>
+<answer fraction="100" format="plain_text"><text><![CDATA[8 cm]]></text><feedback><text><![CDATA[]]></text></feedback></answer>
+<answer fraction="0" format="plain_text"><text><![CDATA[4 cm]]></text><feedback><text><![CDATA[]]></text></feedback></answer>
+<answer fraction="0" format="plain_text"><text><![CDATA[16 cm]]></text><feedback><text><![CDATA[]]></text></feedback></answer>
+</question>
+<question type="multichoice">
+<name><text><![CDATA[Rayon et diamètre]]></text></name>
+<questiontext format="html"><text><![CDATA[<div style="font-family: Arial; font-size: 13px;">Un cercle a pour diamètre 9 cm. Son rayon mesure :</div>]]></text></questiontext>
+<externallink/>
+<usecase>1</usecase>
+<defaultgrade>1</defaultgrade>
+<single>true</single>
+<answer fraction="0" format="plain_text"><text><![CDATA[18 cm]]></text><feedback><text><![CDATA[]]></text></feedback></answer>
+<answer fraction="0" format="plain_text"><text><![CDATA[9 cm]]></text><feedback><text><![CDATA[]]></text></feedback></answer>
+<answer fraction="100" format="plain_text"><text><![CDATA[4,5 cm]]></text><feedback><text><![CDATA[]]></text></feedback></answer>
+<answer fraction="0" format="plain_text"><text><![CDATA[3 cm]]></text><feedback><text><![CDATA[]]></text></feedback></answer>
+</question>
+<question type="multichoice">
+<name><text><![CDATA[Vocabulaire]]></text></name>
+<questiontext format="html"><text><![CDATA[<div style="font-family: Arial; font-size: 13px;">Un segment qui relie deux points d'un cercle <b>et passe par son centre</b> s'appelle :</div>]]></text></questiontext>
+<externallink/>
+<usecase>1</usecase>
+<defaultgrade>1</defaultgrade>
+<single>true</single>
+<answer fraction="100" format="plain_text"><text><![CDATA[un diamètre]]></text><feedback><text><![CDATA[]]></text></feedback></answer>
+<answer fraction="0" format="plain_text"><text><![CDATA[un rayon]]></text><feedback><text><![CDATA[]]></text></feedback></answer>
+<answer fraction="0" format="plain_text"><text><![CDATA[une corde qui ne passe pas par le centre]]></text><feedback><text><![CDATA[]]></text></feedback></answer>
+<answer fraction="0" format="plain_text"><text><![CDATA[un arc]]></text><feedback><text><![CDATA[]]></text></feedback></answer>
+</question>
+<question type="multichoice">
+<name><text><![CDATA[Points d'un cercle]]></text></name>
+<questiontext format="html"><text><![CDATA[<div style="font-family: Arial; font-size: 13px;">A et B sont deux points du cercle de centre O. On peut affirmer que :</div>]]></text></questiontext>
+<externallink/>
+<usecase>1</usecase>
+<defaultgrade>1</defaultgrade>
+<single>true</single>
+<answer fraction="0" format="plain_text"><text><![CDATA[OA &gt; OB]]></text><feedback><text><![CDATA[]]></text></feedback></answer>
+<answer fraction="100" format="plain_text"><text><![CDATA[OA = OB]]></text><feedback><text><![CDATA[]]></text></feedback></answer>
+<answer fraction="0" format="plain_text"><text><![CDATA[OA = 2 × OB]]></text><feedback><text><![CDATA[]]></text></feedback></answer>
+<answer fraction="0" format="plain_text"><text><![CDATA[OA + OB = AB]]></text><feedback><text><![CDATA[]]></text></feedback></answer>
+</question>
+<question type="multichoice">
+<name><text><![CDATA[Cercle ou disque]]></text></name>
+<questiontext format="html"><text><![CDATA[<div style="font-family: Arial; font-size: 13px;">Le cercle de centre O a pour rayon 5 cm et OM = 3 cm. Le point M :</div>]]></text></questiontext>
+<externallink/>
+<usecase>1</usecase>
+<defaultgrade>1</defaultgrade>
+<single>true</single>
+<answer fraction="0" format="plain_text"><text><![CDATA[est sur le cercle et dans le disque]]></text><feedback><text><![CDATA[]]></text></feedback></answer>
+<answer fraction="0" format="plain_text"><text><![CDATA[est sur le cercle mais pas dans le disque]]></text><feedback><text><![CDATA[]]></text></feedback></answer>
+<answer fraction="100" format="plain_text"><text><![CDATA[est dans le disque mais pas sur le cercle]]></text><feedback><text><![CDATA[]]></text></feedback></answer>
+<answer fraction="0" format="plain_text"><text><![CDATA[n'est ni sur le cercle ni dans le disque]]></text><feedback><text><![CDATA[]]></text></feedback></answer>
+</question>
+<question type="multichoice">
+<name><text><![CDATA[Le disque]]></text></name>
+<questiontext format="html"><text><![CDATA[<div style="font-family: Arial; font-size: 13px;">Le disque de centre O et de rayon 2 cm est formé de tous les points situés :</div>]]></text></questiontext>
+<externallink/>
+<usecase>1</usecase>
+<defaultgrade>1</defaultgrade>
+<single>true</single>
+<answer fraction="0" format="plain_text"><text><![CDATA[à exactement 2 cm de O]]></text><feedback><text><![CDATA[]]></text></feedback></answer>
+<answer fraction="0" format="plain_text"><text><![CDATA[à plus de 2 cm de O]]></text><feedback><text><![CDATA[]]></text></feedback></answer>
+<answer fraction="0" format="plain_text"><text><![CDATA[à moins de 1 cm de O]]></text><feedback><text><![CDATA[]]></text></feedback></answer>
+<answer fraction="100" format="plain_text"><text><![CDATA[à 2 cm ou moins de O]]></text><feedback><text><![CDATA[]]></text></feedback></answer>
+</question>
+<question type="multichoice">
+<name><text><![CDATA[Définition de la médiatrice]]></text></name>
+<questiontext format="html"><text><![CDATA[<div style="font-family: Arial; font-size: 13px;">La médiatrice d'un segment [AB] est la droite :</div>]]></text></questiontext>
+<externallink/>
+<usecase>1</usecase>
+<defaultgrade>1</defaultgrade>
+<single>true</single>
+<answer fraction="0" format="plain_text"><text><![CDATA[qui passe par A et par B]]></text><feedback><text><![CDATA[]]></text></feedback></answer>
+<answer fraction="0" format="plain_text"><text><![CDATA[parallèle à [AB] passant par son milieu]]></text><feedback><text><![CDATA[]]></text></feedback></answer>
+<answer fraction="0" format="plain_text"><text><![CDATA[qui passe par le milieu de [AB] et par A]]></text><feedback><text><![CDATA[]]></text></feedback></answer>
+<answer fraction="100" format="plain_text"><text><![CDATA[qui passe par le milieu de [AB] et lui est perpendiculaire]]></text><feedback><text><![CDATA[]]></text></feedback></answer>
+</question>
+<question type="multichoice">
+<name><text><![CDATA[Propriété de la médiatrice]]></text></name>
+<questiontext format="html"><text><![CDATA[<div style="font-family: Arial; font-size: 13px;">M est un point de la médiatrice de [AB] et MA = 3,2 cm. Alors :</div>]]></text></questiontext>
+<externallink/>
+<usecase>1</usecase>
+<defaultgrade>1</defaultgrade>
+<single>true</single>
+<answer fraction="100" format="plain_text"><text><![CDATA[MB = 3,2 cm]]></text><feedback><text><![CDATA[]]></text></feedback></answer>
+<answer fraction="0" format="plain_text"><text><![CDATA[MB = 6,4 cm]]></text><feedback><text><![CDATA[]]></text></feedback></answer>
+<answer fraction="0" format="plain_text"><text><![CDATA[MB = 1,6 cm]]></text><feedback><text><![CDATA[]]></text></feedback></answer>
+<answer fraction="0" format="plain_text"><text><![CDATA[on ne peut pas savoir]]></text><feedback><text><![CDATA[]]></text></feedback></answer>
+</question>
+<question type="multichoice">
+<name><text><![CDATA[Réciproque]]></text></name>
+<questiontext format="html"><text><![CDATA[<div style="font-family: Arial; font-size: 13px;">Un point P est tel que PA = PB. Alors P :</div>]]></text></questiontext>
+<externallink/>
+<usecase>1</usecase>
+<defaultgrade>1</defaultgrade>
+<single>true</single>
+<answer fraction="100" format="plain_text"><text><![CDATA[appartient à la médiatrice de [AB]]]></text><feedback><text><![CDATA[]]></text></feedback></answer>
+<answer fraction="0" format="plain_text"><text><![CDATA[est le milieu de [AB]]]></text><feedback><text><![CDATA[]]></text></feedback></answer>
+<answer fraction="0" format="plain_text"><text><![CDATA[appartient au segment [AB]]]></text><feedback><text><![CDATA[]]></text></feedback></answer>
+<answer fraction="0" format="plain_text"><text><![CDATA[est sur le cercle de diamètre [AB]]]></text><feedback><text><![CDATA[]]></text></feedback></answer>
+</question>
+<question type="multichoice">
+<name><text><![CDATA[Construction au compas]]></text></name>
+<questiontext format="html"><text><![CDATA[<div style="font-family: Arial; font-size: 13px;">Pour construire la médiatrice de [AB] au compas, l'écartement doit être :</div>]]></text></questiontext>
+<externallink/>
+<usecase>1</usecase>
+<defaultgrade>1</defaultgrade>
+<single>true</single>
+<answer fraction="0" format="plain_text"><text><![CDATA[égal à AB]]></text><feedback><text><![CDATA[]]></text></feedback></answer>
+<answer fraction="0" format="plain_text"><text><![CDATA[plus petit que la moitié de [AB]]]></text><feedback><text><![CDATA[]]></text></feedback></answer>
+<answer fraction="100" format="plain_text"><text><![CDATA[plus grand que la moitié de [AB]]]></text><feedback><text><![CDATA[]]></text></feedback></answer>
+<answer fraction="0" format="plain_text"><text><![CDATA[égal à la moitié de [AB]]]></text><feedback><text><![CDATA[]]></text></feedback></answer>
+</question>
+</quiz>
